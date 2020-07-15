@@ -1,0 +1,5 @@
+- Creating a class
+- Using constructor, getter and setter
+- Using callbacks (function passed as an argument to another function)
+- Using EventListeners
+- Arrow functions
