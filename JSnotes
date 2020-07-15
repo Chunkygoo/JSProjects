@@ -1,9 +1,18 @@
 - A callback function is a function passed as an argument to another function
 - JS is single-threaded
-- - How to determine the value of this:
+- How to determine the value of this (lecture 202):
     1)Did you define the function with an arrow functoin?
         - Write 'console.log(this)' on the first valid line above the arrow function. Value of 'this' in the arrow function will be equal to that console.log
     2)Did you call 'bind', 'apply', or 'call' on the function when you invoked it?
-        - 'this' is equal to the first argument of 'bind', 'apply' or 'call'
+        - 'this' is equal to the first argument of 'bind', 'apply' or 'call'. If argument is absent, 'this' is equal to the browser Window
     3)All other cases
         - 'this' is equal to whatever is to the left of the '.' in the method call
+- Synchronous code is executed in sequence: each statement waits for the previous statement to finish before executing. Asynchronous code doesn't have to wait,
+  your program can continue to run.
+- Why use promises (objects that may produce a single value some time in the future)? So we can use .then for resolve() and .catch for reject() which will get 
+  us out of the callback hell (chaining callbacks from one to another) and to handle asynchronous operations. Asynchronous operations are "multi-threaded" (they
+  are not really multi-threaded, hence the quotes) as in the browser takes care of a line of code whereas JS takes care of the following line. But what if we want
+  the browser-line of code to fully run before the JS-line of code runs? That is when promises come into play. The browser-line of code can promise the JS line of
+  code to resolve (or reject) a value before the JS-line of code runs, preventing unexpected errors. In short, promises turn asynchronous code to synchronous.
+- Using async, whatever is returned is equal to the resolve part of a promise, whereas whatever is threw is equal to the rejected part of a promise. await waits 
+  for the awaited line of code to be executed completely before going to the next line, making it synchronous.

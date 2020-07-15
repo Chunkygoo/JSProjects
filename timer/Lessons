@@ -7,6 +7,6 @@
     1)Did you define the function with an arrow functoin?
         - Write 'console.log(this)' on the first valid line above the arrow function. Value of 'this' in the arrow function will be equal to that console.log
     2)Did you call 'bind', 'apply', or 'call' on the function when you invoked it?
-        - 'this' is equal to the first argument of 'bind', 'apply' or 'call'
+        - 'this' is equal to the first argument of 'bind', 'apply' or 'call'. If argument is absent, 'this' is equal to the browser Window
     3)All other cases
         - 'this' is equal to whatever is to the left of the '.' in the method call
