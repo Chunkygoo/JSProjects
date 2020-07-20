@@ -1,0 +1,6 @@
+- Extracting componenets and creating a reusable .js file
+- DOM manipulation
+- Using addEventListener
+- using async, await
+- Using the omdbAPI
+- Using reduce

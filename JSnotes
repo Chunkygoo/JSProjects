@@ -16,3 +16,4 @@
   code to resolve (or reject) a value before the JS-line of code runs, preventing unexpected errors. In short, promises turn asynchronous code to synchronous.
 - Using async, whatever is returned is equal to the resolve part of a promise, whereas whatever is threw is equal to the rejected part of a promise. await waits 
   for the awaited line of code to be executed completely before going to the next line, making it synchronous.
+- The event object contains information about the event that's passed in.
