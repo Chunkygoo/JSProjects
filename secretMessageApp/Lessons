@@ -1,0 +1,4 @@
+- Using btoa() to do base64 encoding
+- Using atob() to do base64 decoding
+- Toggling visibility of html components
+- Deployment to production using npx now: https://secret-message-app-five.vercel.app/
