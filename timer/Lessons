@@ -10,3 +10,4 @@
         - 'this' is equal to the first argument of 'bind', 'apply' or 'call'. If argument is absent, 'this' is equal to the browser Window
     3)All other cases
         - 'this' is equal to whatever is to the left of the '.' in the method call
+- Deployment to production using npx now: https://timer-blue.vercel.app/

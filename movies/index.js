@@ -1,7 +1,7 @@
 let leftSummary = null
 let rightSummary = null
 const onMovieSelect = async (movie, elementSummary, side) => {
-  const response = await axios.get("http://www.omdbapi.com/", {
+  const response = await axios.get("https://www.omdbapi.com/", {
     params: {
       apikey: "d990fc1",
       i: movie.imdbID
@@ -123,7 +123,7 @@ const autocomplete = {
     return movie.Title
   },
   async fetchData(searchTerm) {
-    const response = await axios.get("http://www.omdbapi.com/", {
+    const response = await axios.get("https://www.omdbapi.com/", {
       params: {
         apikey: "d990fc1",
         s: searchTerm

@@ -4,3 +4,4 @@
 - using async, await
 - Using the omdbAPI
 - Using reduce
+- Deployment to production using npx now: https://movies-nine-kappa.vercel.app/
