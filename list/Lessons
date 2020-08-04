@@ -1,0 +1,7 @@
+- Run npm init -y to create a package.json file
+- Turn .js files into binary executables by adding a bin object in package.json
+- Run npx link to link nls globally (delete all files in C:\Users\yourName\AppData\Roaming\npm if there's an error)
+- Run npx install chalk to format console.log output
+- Use Promise.all to allow parallel threads and to allow synchronous execution
+- Dependency in package.json is the dependencies of the project
+- Usage: Run "nls <dir>" in the command line. It works just like ls. Blue means directory, white means file.
