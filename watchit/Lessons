@@ -2,3 +2,4 @@
 - Use the child_process package to run another .js file inside a .js file
 - Use the caporal package to format command line args, options etc (use -h to see help)
 - Use the lodash.debounce package to help debounce a process
+- Run watchit [filename] to use this program
