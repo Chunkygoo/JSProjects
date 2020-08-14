@@ -1,0 +1,12 @@
+- Use bodyParser as a middleware to save form data with the "name" property given by the browser into req.body
+- Use express as a routing mechanism
+- Create a userRepo class
+- Use async and await
+- Use the filesystem package
+- Export a module so that other files could use the module
+- "require" packages
+- Create .json file to store data persistently and parse the data using JSON.parse and write to .json using JSON.stringify
+- Use npm run dev to run scripts in .json
+- Use nodemon to monitor directory
+- Understand req is request from browser to express server and res is respond of express server to browser
+- Understand that POST carries data in req.body where GET carries data in the url
