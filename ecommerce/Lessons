@@ -10,3 +10,8 @@
 - Use nodemon to monitor directory
 - Understand req is request from browser to express server and res is respond of express server to browser
 - Understand that POST carries data in req.body where GET carries data in the url
+- If running on Linux, make sure node is the latest version (simply running sudo apt install nodejs will install the older version):
+    # cd ~
+    # curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+    # sudo bash nodesource_setup.sh
+    # sudo apt install nodejs
